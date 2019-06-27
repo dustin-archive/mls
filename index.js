@@ -16,7 +16,8 @@ const parse = data => {
     // TARGET
     // starts with a word of one or more; ends with a colon
     if (/^\w+:$/.test(line) === true) {
-      output[line.slice(0, -1)] = []
+      target = line.slice(0, -1)
+      output[target] = []
       continue // next iteration
     }
 
