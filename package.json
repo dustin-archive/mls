@@ -1,0 +1,8 @@
+{
+  "name": "mls",
+  "version": "0.1.0",
+  "description": "MLS outputs a simple data structure from minimal YAML-like input.",
+  "author": "Dustin Dowell <dustindowell2@gmail.com>",
+  "license": "ISC",
+  "main": "index.js"
+}
